@@ -218,10 +218,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  .form__input::placeholder {
-    font-size: 20px;
-    margin-top: 15px;
-  }
+}
+.form__button-container {
+  display: flex;
+  justify-content: center;
+  border: 0;
 }
 .form__button {
   border-radius: 4px;
@@ -238,11 +239,7 @@
   line-height: 20px;
   border: 0;
 }
-.form__button-container {
-  display: flex;
-  justify-content: center;
-  border: 0;
-}
+
 .form__button:hover {
   opacity: 70%;
 }
